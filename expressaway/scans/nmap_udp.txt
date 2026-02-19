@@ -1,0 +1,40 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-02-19 12:25 EST
+Nmap scan report for 10.129.2.26
+Host is up (0.27s latency).
+Not shown: 996 closed udp ports (port-unreach)
+PORT     STATE         SERVICE   VERSION
+68/udp   open|filtered dhcpc
+69/udp   open          tftp      Netkit tftpd or atftpd
+500/udp  open          isakmp?
+| ike-version: 
+|   attributes: 
+|     XAUTH
+|_    Dead Peer Detection v1.0
+| fingerprint-strings: 
+|   IKE_MAIN_MODE: 
+|_    "3DUfw
+4500/udp open|filtered nat-t-ike
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port500-UDP:V=7.95%I=7%D=2/19%Time=69974C00%P=x86_64-pc-linux-gnu%r(IKE
+SF:_MAIN_MODE,70,"\0\x11\"3DUfw\x90\xd8\xcb\x16b\x89\x006\x01\x10\x02\0\0\
+SF:0\0\0\0\0\0p\r\0\x004\0\0\0\x01\0\0\0\x01\0\0\0\(\x01\x01\0\x01\0\0\0\x
+SF:20\x01\x01\0\0\x80\x01\0\x05\x80\x02\0\x02\x80\x04\0\x02\x80\x03\0\x01\
+SF:x80\x0b\0\x01\x80\x0c\0\x01\r\0\0\x0c\t\0&\x89\xdf\xd6\xb7\x12\0\0\0\x1
+SF:4\xaf\xca\xd7\x13h\xa1\xf1\xc9k\x86\x96\xfcwW\x01\0")%r(IPSEC_START,9C,
+SF:"1'\xfc\xb08\x10\x9e\x89_\xccc\x91\xc8>\|\xac\x01\x10\x02\0\0\0\0\0\0\0
+SF:\0\x9c\r\0\x004\0\0\0\x01\0\0\0\x01\0\0\0\(\x01\x01\0\x01\0\0\0\x20\x01
+SF:\x01\0\0\x80\x01\0\x05\x80\x02\0\x02\x80\x04\0\x02\x80\x03\0\x03\x80\x0
+SF:b\0\x01\x80\x0c\x0e\x10\r\0\0\x0c\t\0&\x89\xdf\xd6\xb7\x12\r\0\0\x14\xa
+SF:f\xca\xd7\x13h\xa1\xf1\xc9k\x86\x96\xfcwW\x01\0\r\0\0\x18@H\xb7\xd5n\xb
+SF:c\xe8\x85%\xe7\xde\x7f\0\xd6\xc2\xd3\x80\0\0\0\0\0\0\x14\x90\xcb\x80\x9
+SF:1>\xbbin\x08c\x81\xb5\xecB{\x1f");
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 16972/udp)
+HOP RTT       ADDRESS
+1   212.71 ms 10.10.14.1
+2   212.80 ms 10.129.2.26
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1304.84 seconds

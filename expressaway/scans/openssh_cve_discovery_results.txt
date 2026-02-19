@@ -1,0 +1,5 @@
+Scanning started at: 2026-02-19 09:32:12.200300
+Total hosts to scan: 1
+Host: 10.129.2.26, Port: 22, OpenSSH Version: OpenSSH 10.0p2 Debian 8, Vulnerability: Not vulnerable
+Scanning completed at: 2026-02-19 09:32:37.429597
+Duration: 0:00:25.229297

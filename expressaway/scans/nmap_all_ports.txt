@@ -1,0 +1,15 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-02-19 09:02 EST
+Warning: 10.129.2.26 giving up on port because retransmission cap hit (6).
+Stats: 0:07:12 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 43.64% done; ETC: 09:19 (0:09:18 remaining)
+Stats: 0:10:39 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 65.05% done; ETC: 09:19 (0:05:43 remaining)
+Stats: 0:13:36 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 83.61% done; ETC: 09:19 (0:02:40 remaining)
+Nmap scan report for 10.129.2.26
+Host is up (0.21s latency).
+Not shown: 65507 closed tcp ports (conn-refused), 27 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 991.41 seconds
